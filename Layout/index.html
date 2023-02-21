@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2023 Srujan Lokhande -->
+<html>
+    <head>
+        <meta name = "viewport" content = "user-scalable =no, width = device-width">
+        <meta charset="UTF-8">
+
+        <title>Centipede Game</title>
+
+        <!-- Calling the style.css --> 
+        <link rel="stylesheet" href="./css/main.css">
+        <script type="text/javascript" src="./libs/p5.js"></script>
+        <script type="text/javascript" src="./libs/p5.min.js"></script>
+        <script src="./scripts/player.js"></script>
+        <script src="./scripts/game.js"></script>
+        <script src="./scripts/centipede.js"></script>
+        <script src="./scripts/bullets.js"></script>
+        <script src="./scripts/mushrooms.js"></script>
+    </head>
+    <body>
+
+        <!--creating a box model for left side box which shows the game controls-->
+        <div class="Controls">
+
+            <!--using the unordered list for bullet points-->
+            <ul>
+                <h3>Controls</h3>
+                <li>Move the ship using Keyboard arrow keys</li>
+                <li>Shoot using Spacebar</li>
+            </ul>
+            <ul>
+                <h3>How to play?</h3>
+                <li>Shoot the centipede coming towards you</li>
+                <li>Dont let the centipede reach you</li>
+            </ul>
+        </div>
+        <!--creating a main division for the game-->
+        <div class="gameBox">
+            <h1>Centipede Game</h1>           
+        </div>
+    </body>
+</html>
